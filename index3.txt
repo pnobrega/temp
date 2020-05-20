@@ -1,0 +1,203 @@
+<style>
+    element.style {
+        height: auto;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    #container {
+        width: 60%;
+        margin: auto;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        letter-spacing: 0px;
+        font-style: normal;
+    }
+    
+    .bottom-sec :link {
+        font-size: medium;
+        color: black;
+    }
+    
+    .column {
+        float: left;
+        width: 50%;
+    }
+    
+    #data-science {
+        width: 100%;
+    }
+    
+    .education,
+    .experience,
+    .skills-sec {
+        padding: 20px 72px 0 24px;
+    }
+    
+    footer {
+        background-color: #17a2b8;
+        position: relative;
+        padding: 20px 72px 0 24px;
+        line-height: 1rem;
+        bottom: 0;
+        width: 100%;
+        height: 150px;
+        z-index: 10;
+    }
+    
+    footer p {
+        margin: 15px 0 10px 0;
+    }
+    
+    h5 {
+        color: rgb(88, 87, 87);
+    }
+    
+    header {
+        width: 100%;
+        height: 150px;
+        background-color: #17a2b8;
+        position: relative;
+    }
+    
+    header .container {
+        position: relative;
+    }
+    
+    #icons {
+        width: 60px;
+        height: 60px;
+        float: left;
+        margin-right: 10px;
+    }
+    
+    .menu {
+        padding-top: 10px;
+        margin: 50px 50px;
+        float: right;
+    }
+    
+    #menu li {
+        display: inline-block;
+        font-family: "OpenSans";
+    }
+    
+    #menu li a {
+        color: #FFF;
+        font-size: 16px;
+        padding: 10px 25px;
+        font-weight: bold;
+    }
+    
+    #paulologo {
+        border-radius: 50%;
+        float: right;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .top-sec,
+    .bottom-sec {
+        width: 100%;
+    }
+    
+    #nav {
+        padding-top: 52px;
+        padding-bottom: 52px;
+        background-color: #17a2b8;
+        font-size: larger;
+    }
+    
+    @media screen and (max-width: 768px) {
+        #container {
+            width: 90%;
+            margin: auto;
+        }
+        h1 {
+            font-size: 200%;
+        }
+        #paulologo {
+            border-radius: 50%;
+            float: right;
+            width: 150px;
+            height: 150px;
+        }
+    }
+</style>
+<!doctype html>
+<html lang="en">
+<section class="top-sec">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+        <title>Paulo Nobrega</title>
+        <link rel="icon" type="image/jpg" href="img/pauloICO.jpg">
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <div class="container">
+                    <!--- <img id="paulologo" src="img/paulo.jpg" alt="Paulo"> -->
+                </div>
+
+                <nav id="nav" class="navbar navbar-expand-lg navbar-light">
+                    <!---<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button> -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </header>
+</section>
+<section class="myself">
+    <div id="container">
+        <h1> <strong>CompuTech</strong><br><small>Computer Aplications</small></h1>
+        <h3>Student: Paulo Nobrega <br> Student No: 2020099</h3>
+</section>
+<section class="myself">
+    <div id="container">
+        <ul>
+            <li><strong>About Us - </strong>We are an experienced and dynamic company specializing in high quality software specifically tailored to the needs of our clients. We have a progressive approach to the design of our programs and have a track record
+                in proven product reliability.</li>
+            <li><strong>Company Profile - </strong>Our company develops flexible and efficient Database programs using Delphi as the front end and DBISAM, MySQL and ElevateDB as the database engines. The combination of these products results in a state of
+                the art finished product for our clients. Most of our work is tailored to suit the Construction Industry but our programs can quickly be customised for other areas.</li>
+            <li><strong>Team - </strong>We are a team of highly experienced professionals who can provide the analysis, expertise, tools, and monitoring to help you solve your toughest business challenges through IT solutions. Our professional programmers
+                have the creative talent and the ability to turn your design ideas into reality</li>
+        </ul>
+    </div>
+    </div>
+</section>
+</div>
+</section>
+
+<section class="bottom-sec">
+    <div id="container">
+        <footer>
+            <p>Computech<br><br> Mobile: +353 89 953 8894 <br> Email: <a href="nobregaxp@gmail.com">nobregaxp@gmail.com</p></a>
+                <address>
+                Whitehall, Dublin, Ireland
+            </address>
+        </footer>
+    </div>
+</section>
+
+</body>
+
+</html>
