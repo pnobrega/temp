@@ -1,0 +1,158 @@
+/****** General Styles *********/
+html, body {
+    
+    background-color: #e2d3cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:#283e3e; 
+    line-height: 20px;
+    
+}
+
+h1 {
+    font-size: 24px;
+    color: #030303;
+}
+  
+h2 {
+    font-size:18px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size:14px;
+    color: #283e3e;
+}
+ 
+h4 {
+    font-size:12px;
+    color:white;
+    line-height: 5px;
+}
+
+p {
+    font-size:12px;
+    color: #283e3e;
+    line-height: 20px;
+}
+
+p.white {
+    font-size:12px;
+    color: white;
+    line-height: 20px;
+}
+
+#content {
+    width: 920px;
+    min-height: 500px;
+    padding: 0 30px;
+  }
+
+
+/* Lists */
+
+table {
+    border-collapse: collapse;
+    vertical-align: top;
+  }
+  
+  table.list {
+    width: 100%;
+  }
+  
+  table.list tr td {
+    border: 1px solid #999999;
+  }
+  
+  table.list tr th {
+    border: 1px solid #0055DD;
+    background: #0055DD;
+    color: white;
+    text-align: left;
+  }
+
+
+/****** Put Coloured Box around Text *********/
+
+.colourband {
+    
+    background-color: #003366;
+    padding: 5px;    
+}
+
+
+/****** Header Style *********/
+
+.header {
+    
+    overflow: hidden;
+    background-color: #4c4c85;
+    padding: 10px;
+    height: auto;  
+   
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px 20px 5px 20px;
+    background-color: #003366;
+    height: 50px
+}
+
+.logout {
+    list-style-type: none;
+    color: white
+}
+
+/****** Nav Bar *********/
+
+ul.ourNavbar {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    background-color: #707070;
+    overflow: hidden;
+}
+
+ul.ourNavbar > li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+ul.ourNavbar li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.ourNavbar li a:hover {
+    background-color: #003366;
+    color: white;
+}
+
+ul.ourNavbar li.active {
+    background-color: #003366;
+    color: white;
+}
+
+ul.ourNavbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/****** Footer Style *********/
+
+.footer {
+    background-color: #707070;
+    padding: 10px;
+}
+
+
