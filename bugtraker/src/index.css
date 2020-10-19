@@ -1,0 +1,38 @@
+html,
+body,
+div,
+li,
+ul,
+Link,
+form,
+input,
+label,
+textarea,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+button {
+  outline: none;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid rgba(9, 9, 121, 1);
+  outline: none;
+}

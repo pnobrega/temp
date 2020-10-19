@@ -1,0 +1,8 @@
+.bug-page-container {
+  display: flex;
+  flex: 3 0 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: scroll;
+  position: relative;
+}
